@@ -1,0 +1,26 @@
+.galleryContainer {
+    height: 80vh;
+    width: 1000vw;
+}
+
+.gallery {
+    height: 100%;
+    width: 100%;
+    animation: gallery 30s linear infinite;
+}
+
+.galleryInner {
+    width: 50%;
+    height: 100%;
+}
+
+.galleryPic {
+    width: 20%;
+    height: 100%;
+}
+
+.galleryPic > img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}

@@ -1,0 +1,124 @@
+.App {
+  text-align: center;
+  overflow-x: hidden;
+    transition: opacity 0.25s 0.25s;
+}
+
+.opacity0 {
+    opacity: 0;
+}
+
+.icon {
+  transition: opacity 0.25s !important;
+  cursor: pointer;
+}
+
+.icon:hover {
+  opacity: 0.5;
+}
+
+.about {
+    color: white;
+}
+
+.about > img {
+  position: relative;
+  object-fit: cover;
+}
+
+.aboutFilter {
+  background: rgba(0,0,0,0.75)
+}
+
+.aboutText {
+  flex-direction: column;
+  justify-content: flex-start;
+  padding-top: 5rem;
+  font-size: 150%;
+}
+
+.aboutText > p {
+  font-weight: 300;
+}
+
+.reviews {
+  width: 600vw;
+  animation: reviews 20s infinite;
+}
+
+.review {
+  width: 100vw;
+  flex-direction: column;
+  padding: 0 2rem;
+}
+
+.review > p {
+  font-weight: 300;
+}
+
+.footer-final {
+  background: #333;
+  color: white;
+  justify-content: space-between !important;
+  padding: 0 2rem;
+}
+
+.footer-final > h5 {
+  font-weight: normal;
+  text-align: left;
+}
+
+.footer-socials {
+  width: 33.33%;
+  justify-content: space-between;
+}
+
+.social {
+  color: white;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+@keyframes gallery {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-500vw);
+  }
+}
+
+@keyframes galleryDesktop {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-250vw);
+  }
+}
+
+@keyframes reviews {
+ 0% {
+   transform: translateX(0);
+ }
+  5% {
+    transform: translateX(-100vw);
+  }
+  33.33% {
+    transform: translateX(-100vw);
+  }
+  38.33% {
+    transform: translateX(-200vw);
+  }
+  66.66% {
+    transform: translateX(-200vw);
+  }
+  71.66% {
+    transform: translateX(-300vw);
+  }
+  100% {
+    transform: translateX(-300vw);
+  }
+}

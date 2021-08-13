@@ -1,0 +1,47 @@
+.footer {
+    flex-wrap: wrap;
+    height: auto;
+}
+
+.footer-borderContainer {
+    height: 100%;
+    position: absolute;
+    inset: 0;
+    flex-direction: column;
+    justify-content: space-between !important;
+    opacity: 0.5;
+}
+
+.footer-border {
+    height:5vh;
+    background-image: url('./images/footerBorder.png');
+    background-size: contain;
+    background-repeat: space;
+}
+
+.footerDiv {
+    height: 100vh;
+    flex-direction: column;
+    z-index: 1;
+}
+
+.footer-left > h1, h2, h4 {
+    margin: 0.5rem;
+}
+
+.footer-left {
+    position: relative;
+    padding: 5rem 0;
+    padding-left: 5rem;
+    align-items: flex-start !important;
+}
+
+.footer-left > h4 {
+    font-weight: normal;
+}
+
+.footer-right > iframe {
+    height: 100%;
+    width: 100%;
+    border: none;
+}
