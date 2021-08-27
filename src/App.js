@@ -57,8 +57,9 @@ function App() {
                 </div>
             </div>
         </div>
-        <Gallery />
+
         <Footer />
+        <Gallery />
         <div className='footer-final flex col-12 col-m-12 col-l-12'>
             <h5>Designed by Vision Web Design</h5>
             <div className='socials footer-socials flex col-m-2 col-l-1'>

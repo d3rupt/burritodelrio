@@ -4,7 +4,7 @@
     background: #65c9d0;
     color: white;
     padding: 5rem 0;
-    transition: max-height: 0.25s;
+    transition: max-height 0.25s;
 }
 
 .menu > h1 {

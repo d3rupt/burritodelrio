@@ -5,6 +5,7 @@ import './Menu.css';
 
 function Menu(props) {
     const [menuChoice, setMenuChoice] = useState(0);
+
     useEffect(() => {
         const arrows = document.querySelectorAll('.menuArrow');
         arrows.forEach((arrow, index) => {
